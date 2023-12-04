@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#36250b;
+    
+    
+    
+    
+}
+
+header{
+    background-color: #d8a59d;
+    border: 1px solid beige;
+}
+header h1{
+    text-align: center;
+    color: white;
+
+}
+.index{
+    text-align: center;    
+    color: white;
+    display: inline-block;
+    margin-left: 45%;
+    
+
+}
+nav{
+    display: flex;
+    background-color: rgb(255, 238, 216);
+    border: 3px solid white;
+    height: 30px;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    
+    
+    
+}
+nav a{
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: underline;
+    
+    
+
+    
+
+    
+}
+nav a:active{
+    color: aqua;
+
+}
+nav a:hover{
+    color:rgba(245, 245, 245, 0.466);
+    font-size: 18px;
+    padding: 5px;
+    background-color: #f5cac3;
+    border-radius: 5px;
+}
+nav a:visited{
+    color: gray;
+}
+footer{
+    text-align: center;
+}
+p{
+    border: 1px solid black;
+    background-color:#d8a59d;
+    margin-top: 0;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    
+}
+.munka{
+    text-align: center;
+    color: white;
+}
+.munkalink{
+    margin-left: 48%;
+}
+
+/*id*/
+#rolam h2, #munka h2, #ar h2, #papir h2, #elerhetoseg h2{
+    font-size: 60px;
+    color: black;
+    margin-left: 50px;
+}
+
